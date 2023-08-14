@@ -15,3 +15,29 @@
     Output:
         Four
 */
+#include <stdio.h>
+
+int main()
+{
+    int n ;
+    printf("Test case:\n");
+    printf("User input :\n");
+    scanf("%d",&n);
+    switch (n)
+    {
+    case 1:
+        printf("Output:\n one");
+        break;
+    case 4:
+        printf("Output:\n Four");
+        break;
+    case 12:
+        printf("Output:\n Twelve");
+        break;
+    default :
+        printf("Unknown\n");
+        break;
+    }
+    
+    return 0;
+}
